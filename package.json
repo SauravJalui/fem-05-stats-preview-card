@@ -1,0 +1,23 @@
+{
+  "name": "fem-05-stats-preview-card",
+  "version": "1.0.0",
+  "description": "Stats preview card",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "sass sass/main.scss css/style.css -w",
+    "compress-sass": "sass sass/main.scss css/style-min.css --style compressed -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SauravJalui/fem-05-stats-preview-card.git"
+  },
+  "author": "Saurav Jalui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SauravJalui/fem-05-stats-preview-card/issues"
+  },
+  "homepage": "https://github.com/SauravJalui/fem-05-stats-preview-card#readme",
+  "devDependencies": {
+    "sass": "^1.54.5"
+  }
+}
