@@ -10,13 +10,19 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="/css/style.css" />
     <title>Stats preview card component</title>
   </head>
   <body>
-    <main>
-      <div class="text-container">
+    <main class="grid grid--2-cols">
+      <div class="hero-text">
         <h1 class="title">
           Get <span class="text-purple">insights</span> that help your business
           grow.
@@ -31,18 +37,17 @@
           <li><span class="text-bold">12m+</span> queries</li>
         </ul>
       </div>
-      <div class="img-container">
-        <picture>
-          <source
-            media="(max-width: 600px)"
-            srcset="./images/image-header-mobile.jpg"
-          />
-          <img
-            src="./images/image-header-desktop.jpg"
-            alt="black and white image of 3 women on a desk"
-          />
-        </picture>
-      </div>
+
+      <picture class="hero-image">
+        <source
+          media="(max-width: 600px)"
+          srcset="./images/image-header-mobile.jpg"
+        />
+        <img
+          src="./images/image-header-desktop.jpg"
+          alt="black and white image of 3 women on a desk"
+        />
+      </picture>
     </main>
   </body>
 </html>
